@@ -1,4 +1,4 @@
-# 교육 플랫폼 (Education Platform)
+# 시험판다(Test Panda)
 <img src="logo.png" width="100" alt="로고"> <br/>
 온라인 시험 출제 및 관리를 위한 웹 기반 교육 플랫폼입니다.
 
