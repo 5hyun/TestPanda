@@ -19,17 +19,19 @@
 }
 
 .logoTitle {
-  font-size: 1.5rem;
+  font-size: 1.8rem;  /* 1.5rem에서 증가 */
   font-weight: bold;
   color: #1f2937;
 }
 
 .nav {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
 .loginBtn {
+  font-size: 1.1rem;  /* 추가됨 */
   color: #4b5563;
   transition: color 0.2s;
 }
@@ -39,6 +41,7 @@
 }
 
 .signupBtn {
+  font-size: 1.1rem;  /* 추가됨 */
   padding: 0.5rem 1rem;
   background-color: #3b82f6;
   color: white;
@@ -68,7 +71,7 @@
 }
 
 .heroTitle {
-  font-size: 2.5rem;
+  font-size: 3rem;  /* 2.5rem에서 증가 */
   font-weight: bold;
   color: #1f2937;
   margin-bottom: 1.5rem;
@@ -80,13 +83,14 @@
 }
 
 .heroText {
-  font-size: 1.125rem;
+  font-size: 1.35rem;  /* 1.125rem에서 증가 */
   color: #4b5563;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
 
 .heroCta {
+  font-size: 1.2rem;  /* 추가됨 */
   padding: 0.75rem 1.5rem;
   background-color: #3b82f6;
   color: white;
@@ -129,14 +133,16 @@
 }
 
 .featureTitle {
-  font-size: 1.25rem;
+  font-size: 1.5rem;  /* 1.25rem에서 증가 */
   font-weight: 600;
   color: #1f2937;
   margin-bottom: 0.5rem;
 }
 
 .featureText {
+  font-size: 1.15rem;  /* 추가됨 */
   color: #4b5563;
+  line-height: 1.5;  /* 추가됨 */
 }
 
 .footer {
@@ -145,6 +151,7 @@
   text-align: center;
   color: #4b5563;
   margin-top: 5rem;
+  font-size: 1.1rem;  /* 추가됨 */
 }
 
 @media (max-width: 768px) {
@@ -155,5 +162,9 @@
 
   .features {
     grid-template-columns: 1fr;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;  /* 모바일에서는 작게 조정 */
   }
 }

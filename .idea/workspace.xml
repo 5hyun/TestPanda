@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ab0fa9-3c3f-4c2b-82b0-34ff0fc148e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/@auth/default.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/@auth/login/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/@auth/signup/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/@modal/login/login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/@modal/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/@modal/signup/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/@auth/default.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/default.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/@auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/@modal/login/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/@auth/signup/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/page.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +76,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "prettierjs.PrettierConfiguration.Package": "/Users/kwon-ohhyun/.nvm/versions/node/v18.4.0/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/kwon-ohhyun/Desktop/TestPanda/frontend/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -79,6 +87,8 @@
       <recent name="$PROJECT_DIR$/frontend/src/app/@auth/signup" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/app/(beforeLogin)/@modal" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/(beforeLogin)" />
       <recent name="$PROJECT_DIR$/frontend/public" />
       <recent name="$PROJECT_DIR$/frontend/src/app/@auth" />
       <recent name="$PROJECT_DIR$/frontend/src/app" />
@@ -100,7 +110,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740320023026</updated>
       <workItem from="1740320025552" duration="446000" />
-      <workItem from="1740393176956" duration="3553000" />
+      <workItem from="1740393176956" duration="4382000" />
+      <workItem from="1740663481816" duration="3272000" />
     </task>
     <servers />
   </component>
