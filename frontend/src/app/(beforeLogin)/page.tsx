@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Book, FileText, BarChart3 } from "lucide-react";
-import styles from "../page.module.css";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -35,7 +35,7 @@ export default function Home() {
               <br />
               초등학생부터 대학생까지, 모든 교육 단계에서 활용 가능합니다.
             </p>
-            <button className={styles.heroCta}>무료로 시작하기</button>
+            <button className={styles.heroCta}>시작하기</button>
           </div>
           <div className={styles.heroImage}>
             <img src="logo.png" alt="Test Platform" width={400} height={400} />

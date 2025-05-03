@@ -1,4 +1,5 @@
 import React from "react";
+import "@/shared/styles/variables.css";
 
 export default function Layout({
   children,

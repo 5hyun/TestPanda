@@ -1,0 +1,54 @@
+:root {
+    /* 배경 색상 */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f0f7ff;
+    --bg-gradient-start: #e6f2ff;
+    --bg-gradient-end: #ffffff;
+
+    /* 텍스트 색상 */
+    --text-primary: #2d3748;
+    --text-secondary: #4a5568;
+
+    /* 브랜드/액션 색상 - 학생 친화적인 파란색 계열 */
+    --brand-primary: #4285f4;  /* 구글 블루 계열 - 친근하고 명확함 */
+    --brand-secondary: #5c7cfa;
+    --brand-highlight: #3b7bf8;
+
+    /* 학습용 액센트 색상 */
+    --accent-success: #34d399;  /* 성취감을 위한 그린 */
+    --accent-warning: #fbbf24;  /* 주의를 위한 노랑 */
+    --accent-info: #60a5fa;     /* 정보를 위한 파랑 */
+
+    /* 그림자 */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* 다크 모드 */
+[data-theme="dark"] {
+    /* 배경 색상 - 눈의 피로를 줄이는 짙은 파란색 계열 */
+    --bg-primary: #1a202c;
+    --bg-secondary: #2d3748;
+    --bg-gradient-start: #1e293b;
+    --bg-gradient-end: #1a202c;
+
+    /* 텍스트 색상 - 가독성 향상 */
+    --text-primary: #f8fafc;
+    --text-secondary: #e2e8f0;
+
+    /* 브랜드/액션 색상 - 다크모드에서 더 밝고 선명하게 */
+    --brand-primary: #60a5fa;
+    --brand-secondary: #3b82f6;
+    --brand-highlight: #93c5fd;
+
+    /* 학습용 액센트 색상 - 다크모드용 */
+    --accent-success: #10b981;
+    --accent-warning: #f59e0b;
+    --accent-info: #38bdf8;
+
+    /* 그림자 - 다크 모드에서는 더 강한 그림자 사용 */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+}
