@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Book, FileText, BarChart3 } from "lucide-react";
 import styles from "./page.module.css";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -13,9 +14,7 @@ export default function Home() {
           <h1 className={styles.logoTitle}>시험판다</h1>
         </div>
         <nav className={styles.nav}>
-          <Link href="/login" className={styles.loginBtn}>
-            로그인
-          </Link>
+          <Button>로그인</Button>
           <Link href="/signup" className={styles.signupBtn}>
             회원가입
           </Link>
