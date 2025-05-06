@@ -145,7 +145,7 @@ export default function Home() {
       {/* 메인 콘텐츠 */}
       <main className="flex-1">
         {/* 히어로 섹션 */}
-        <section className="relative py-12 md:py-24 lg:py-24 bg-gradient-to-b from-primary/10 to-transparent">
+        <section className="relative py-12 md:py-24 lg:py-24 bg-white dark:bg-background">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div className="space-y-6">
@@ -195,7 +195,7 @@ export default function Home() {
         {/* 기능 섹션 */}
         <section
           id="features"
-          className="py-16 md:py-24 border-y border-border bg-secondary/50"
+          className="py-16 md:py-24 border-y border-border bg-slate-50 dark:bg-slate-900/50"
         >
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
@@ -233,7 +233,7 @@ export default function Home() {
         </section>
 
         {/* CTA 섹션 */}
-        <section className="py-16 md:py-24 bg-primary text-primary-foreground">
+        <section className="py-16 md:py-24 bg-white dark:bg-background text-foreground">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
               더 나은 교육을 위한 첫걸음을 내딛어보세요
@@ -246,7 +246,7 @@ export default function Home() {
         </section>
 
         {/* FAQ 섹션 */}
-        <section id="faq" className="py-16 md:py-24">
+        <section id="faq" className="py-16 md:py-24 bg-slate-50 dark:bg-slate-900/50">
           <div className="max-w-3xl mx-auto px-4">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-foreground mb-10">
               자주 묻는 질문
