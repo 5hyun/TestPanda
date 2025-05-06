@@ -16,7 +16,6 @@ const nanumPenScript = Nanum_Pen_Script({
   display: "swap",
   variable: "--font-nanum-pen", // 여기서 CSS 변수를 등록합니다
 });
-
 export const metadata: Metadata = {
   title: "시험판다",
   description: "똑똑한 시험 관리 플랫폼",
