@@ -117,7 +117,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex h-16 items-center px-4">
           <div className="flex items-center gap-2 md:gap-3">
             <Image src="/logo.png" alt="시험판다 로고" width={32} height={32} />
-            <h1 className="text-xl md:text-2xl font-bold text-foreground">
+            <h1 className="text-xl md:text-2xl font-bold text-foreground tracking-wide">
               시험판다
             </h1>
           </div>
@@ -142,25 +142,25 @@ export default function Home() {
       {/* 메인 콘텐츠 */}
       <main className="flex-1">
         {/* 히어로 섹션 */}
-        <section className="relative py-12 md:py-24 lg:py-32 bg-gradient-to-b from-primary/10 to-transparent">
+        <section className="relative py-12 md:py-24 lg:py-24 bg-gradient-to-b from-primary/10 to-transparent">
           <div className="max-w-7xl mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
               <div className="space-y-6">
-                <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
+                <div className="inline-flex items-center px-3 py-1 rounded-full bg-primary/10 text-primary text-xs md:text-sm font-medium mb-4">
                   <Zap className="w-4 h-4 mr-2" />
                   <span>모든 교육 환경에 최적화된 솔루션</span>
                 </div>
-                <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tighter text-foreground">
+                <h2 className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl  tracking-tighter text-foreground leading-tight">
                   스마트한 시험 관리,
                   <br />
                   더 나은 교육을 위한
                   <br />
                   <span className="text-primary">완벽한 플랫폼</span>
                 </h2>
-                <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-[600px]">
-                  시험판다로 더욱 효율적인 학습 평가를 경험하세요. 선생님의
-                  업무를 간소화하고 학생의 성장을 정확히 측정하는 신뢰할 수 있는
-                  파트너입니다.
+                <p className="text-sm md:text-lg lg:text-base text-muted-foreground max-w-[600px] leading-relaxed">
+                  시험판다로 더욱 효율적인 학습 평가를 경험하세요.<br/>
+                  선생님의 업무를 간소화하고 학생의 성장을 정확히 측정하는
+                  <br/>신뢰할 수 있는 파트너입니다.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-4">
                   <Button
@@ -196,10 +196,10 @@ export default function Home() {
         >
           <div className="max-w-7xl mx-auto px-4">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4">
                 강력한 기능으로 교육의 변화를 이끕니다
               </h2>
-              <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 시험판다는 선생님과 학생 모두에게 필요한 모든 기능을 제공합니다
               </p>
             </div>
@@ -215,10 +215,10 @@ export default function Home() {
                       <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-primary/10 mb-4">
                         <Icon className="w-6 h-6 text-primary" />
                       </div>
-                      <h3 className="text-xl font-semibold text-card-foreground mb-2">
+                      <h3 className="text-lg font-semibold text-card-foreground mb-2">
                         {feature.title}
                       </h3>
-                      <p className="text-base text-muted-foreground">
+                      <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                         {feature.description}
                       </p>
                     </CardContent>
@@ -232,56 +232,38 @@ export default function Home() {
         {/* CTA 섹션 */}
         <section className="py-16 md:py-24 bg-primary text-primary-foreground">
           <div className="max-w-7xl mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
               더 나은 교육을 위한 첫걸음을 내딛어보세요
             </h2>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-8">
+            <p className="text-lg opacity-90 max-w-2xl mx-auto">
               14일 동안 모든 기능을 무료로 사용하고, 여러분의 교육 현장에 맞는지
               확인해보세요.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                size="lg"
-                variant="secondary"
-                className="bg-white text-primary hover:bg-white/90"
-                onClick={() => router.push("/signup")}
-              >
-                무료 체험 시작하기
-                <ChevronRight className="w-4 h-4 ml-2" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white bg-white/10 hover:bg-white/20"
-              >
-                상담 신청하기
-              </Button>
-            </div>
           </div>
         </section>
 
         {/* FAQ 섹션 */}
         <section id="faq" className="py-16 md:py-24">
           <div className="max-w-3xl mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-foreground mb-12">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center text-foreground mb-10">
               자주 묻는 질문
             </h2>
             <div className="space-y-8">
               <div className="border-b border-border pb-8">
-                <h3 className="text-lg font-semibold text-foreground mb-3">
+                <h3 className="text-md md:text-lg font-semibold text-foreground mb-3">
                   시험판다는 어떤 교육 환경에서 사용할 수 있나요?
                 </h3>
-                <p className="text-base text-muted-foreground">
+                <p className="text-sm md:text-base text-muted-foreground">
                   초등학교부터 대학교까지, 학원, 스터디 그룹 등 모든 교육
                   환경에서 사용 가능합니다. 각 환경에 맞는 문제 유형과 평가
                   방식을 제공합니다.
                 </p>
               </div>
               <div className="border-b border-border pb-8">
-                <h3 className="font-semibold text-foreground mb-3">
+                <h3 className="text-md md:text-lg font-semibold text-foreground mb-3">
                   시험 결과는 어떻게 확인하나요?
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-sm md:text-base text-muted-foreground">
                   개인별, 그룹별, 문제별로 상세한 통계를 제공합니다. PDF
                   다운로드나 엑셀로 내보내기도 가능합니다.
                 </p>
@@ -306,7 +288,7 @@ export default function Home() {
             <img src="/logo.png" alt="시험판다 로고" width={24} height={24} />
             <span className="font-bold text-foreground">시험판다</span>
           </div>
-          <p className="text-base text-muted-foreground mt-2">
+          <p className="text-xs md:text-sm text-muted-foreground mt-2">
             © 2025 TestMaster Corp. All rights reserved.
           </p>
         </div>

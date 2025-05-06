@@ -1,20 +1,26 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Gaegu, Nanum_Pen_Script } from "next/font/google";
+import { Jua, Gowun_Dodum } from "next/font/google";
 
-// 폰트 설정
-const gaegu = Gaegu({
-  weight: ["400", "700"],
+/**
+ * 폰트 설정
+ * - Jua: 제목 및 강조 텍스트용 (둥글고 친근한 느낌의 산세리프 폰트)
+ * - Gowun Dodum: 본문 텍스트용 (부드럽고 가독성이 좋은 폰트)
+ */
+const jua = Jua({
+  weight: ["400"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-gaegu", // 여기서 CSS 변수를 등록합니다
+  variable: "--font-jua",
+  preload: true,
 });
 
-const nanumPenScript = Nanum_Pen_Script({
-  weight: "400",
+const gowunDodum = Gowun_Dodum({
+  weight: ["400"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-nanum-pen", // 여기서 CSS 변수를 등록합니다
+  variable: "--font-gowun-dodum",
+  preload: true,
 });
 export const metadata: Metadata = {
   title: "시험판다",
@@ -27,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${gaegu.variable} ${nanumPenScript.variable}`}>
+    <html lang="ko" className={`${jua.variable} ${gowunDodum.variable}`}>
       <body>{children}</body>
     </html>
   );
