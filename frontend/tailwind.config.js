@@ -18,38 +18,38 @@ module.exports = {
     },
     extend: {
       colors: {
-        border: 'hsl(0 0% 92%)',
-        input: 'hsl(0 0% 92%)',
-        ring: 'hsl(162.48 77.78% 44.44%)', 
-        background: 'hsl(0 0% 100%)',
-        foreground: 'hsl(285.823 75% 8.62%)',
+        border: 'var(--border)',
+        input: 'var(--input)',
+        ring: 'var(--ring)', 
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
         primary: {
-          DEFAULT: 'hsl(162.48 77.78% 44.44%)',
-          foreground: 'hsl(0 0% 98%)',
+          DEFAULT: 'var(--primary)',
+          foreground: 'var(--primary-foreground)',
         },
         secondary: {
-          DEFAULT: 'hsl(0 0% 96.47%)',
-          foreground: 'hsl(0 0% 21%)',
+          DEFAULT: 'var(--secondary)',
+          foreground: 'var(--secondary-foreground)',
         },
         destructive: {
-          DEFAULT: 'hsl(27.325 63.10% 43.33%)',
-          foreground: 'hsl(0 0% 100%)',
+          DEFAULT: 'var(--destructive)',
+          foreground: 'var(--destructive-foreground)',
         },
         muted: {
-          DEFAULT: 'hsl(0 0% 96.47%)',
-          foreground: 'hsl(0 0% 45.1%)',
+          DEFAULT: 'var(--muted)',
+          foreground: 'var(--muted-foreground)',
         },
         accent: {
-          DEFAULT: 'hsl(0 0% 96.47%)',
-          foreground: 'hsl(0 0% 21%)',
+          DEFAULT: 'var(--accent)',
+          foreground: 'var(--accent-foreground)',
         },
         popover: {
-          DEFAULT: 'hsl(0 0% 100%)',
-          foreground: 'hsl(285.823 75% 8.62%)',
+          DEFAULT: 'var(--popover)',
+          foreground: 'var(--popover-foreground)',
         },
         card: {
-          DEFAULT: 'hsl(0 0% 100%)',
-          foreground: 'hsl(285.823 75% 8.62%)',
+          DEFAULT: 'var(--card)',
+          foreground: 'var(--card-foreground)',
         },
       },
       borderRadius: {

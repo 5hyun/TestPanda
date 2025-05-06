@@ -58,10 +58,13 @@ export default function Home() {
   // 다크 모드 적용
   useEffect(() => {
     if (mounted) {
+      const root = document.documentElement;
       if (isDarkMode) {
-        document.documentElement.classList.add("dark");
+        root.classList.add("dark");
+        root.style.colorScheme = "dark";
       } else {
-        document.documentElement.classList.remove("dark");
+        root.classList.remove("dark");
+        root.style.colorScheme = "light";
       }
     }
   }, [isDarkMode, mounted]);
@@ -236,7 +239,7 @@ export default function Home() {
               더 나은 교육을 위한 첫걸음을 내딛어보세요
             </h2>
             <p className="text-lg opacity-90 max-w-2xl mx-auto">
-              14일 동안 모든 기능을 무료로 사용하고, 여러분의 교육 현장에 맞는지
+              모든 기능을 무료로 사용하고, 여러분의 교육 현장에 맞는지
               확인해보세요.
             </p>
           </div>
